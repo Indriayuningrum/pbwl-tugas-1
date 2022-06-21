@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    background-color: mediumaquamarine;
+}
+
+main{
+    max-width: 1080px;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    float: left;
+}
+
+nav li > a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav li > a :hover {
+    background-color: rgb(150, 190, 241);
+
+}
+
+.active {
+    background-color: rgb(110, 166, 218);
+}
+
+section {
+    min-height: 250px;
+}
+
+footer{
+    margin-top: 100px;
+}
